@@ -1,0 +1,159 @@
+<ENTRY>
+{
+ "thisFile": "D:/hls\\hls_component\\myproject\\myproject.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/26/26 21:58:17",
+ "timestampMillis": "1774537097673",
+ "buildStep": {
+  "cmdId": "ca652524-c9f3-4291-87cb-3bf91ef54449",
+  "name": "vitis-run",
+  "logFile": "D:/hls\\hls_component\\myproject\\logs\\myproject.steps.log",
+  "commandLine": "C:/AMD/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\hls\\hls_component\\hls_config.cfg --work_dir myproject ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\hls\\hls_component\\hls_config.cfg",
+   "--work_dir",
+   "myproject"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\hls\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/26/26 21:58:17",
+ "timestampMillis": "1774537097674",
+ "status": {
+  "cmdId": "ca652524-c9f3-4291-87cb-3bf91ef54449",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/26/26 21:58:27",
+ "timestampMillis": "1774537107121",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "myproject",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\firmware\\defines.h",
+     "C:/Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\firmware\\myproject.cpp",
+     "C:/Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\firmware\\parameters.h",
+     "C:/Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\firmware\\myproject.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/26/26 21:58:27",
+ "timestampMillis": "1774537107122",
+ "buildStep": {
+  "cmdId": "7d59ddbb-f39c-484c-aeba-2f991d19a473",
+  "name": "",
+  "logFile": "D:/hls\\hls_component\\myproject\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\hls\\hls_component"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/26/26 21:58:27",
+ "timestampMillis": "1774537107122",
+ "status": {
+  "cmdId": "7d59ddbb-f39c-484c-aeba-2f991d19a473",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/26/26 21:58:37",
+ "timestampMillis": "1774537117316",
+ "status": {
+  "cmdId": "7d59ddbb-f39c-484c-aeba-2f991d19a473",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/26/26 21:58:37",
+ "timestampMillis": "1774537117438",
+ "status": {
+  "cmdId": "ca652524-c9f3-4291-87cb-3bf91ef54449",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/26/26 21:58:37",
+ "timestampMillis": "1774537117438",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/26/26 21:58:37",
+ "timestampMillis": "1774537117439",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

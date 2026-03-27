@@ -1,0 +1,3 @@
+relativeroot=D:/hls/hls_component
+original_argv=--mode hls --cosim --config D:\hls\hls_component\hls_config.cfg --work_dir myproject 
+

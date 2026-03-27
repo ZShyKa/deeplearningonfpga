@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "D:\\hls\\hls_component",
+    "arguments": [
+      "C:\\AMD\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMD\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMD\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=myproject",
+      "-c",
+      "C:\\Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\firmware\\myproject.cpp"
+    ],
+    "file": "C:\\Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\firmware\\myproject.cpp"
+  },
+  {
+    "directory": "D:\\hls\\hls_component",
+    "arguments": [
+      "C:\\AMD\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMD\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMD\\2025.2\\Vitis\\include",
+      "-c",
+      "C:\\Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\myproject_test.cpp"
+    ],
+    "file": "C:\\Users\\Lecoo\\Downloads\\hls_mlp_vu19p\\myproject_test.cpp"
+  }
+]
